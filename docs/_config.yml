@@ -28,9 +28,9 @@ twitter_username: jekyllrb
 github_username: jekyll
 domain: devdoodles.net
 # Build settings
-theme: architect
 plugins:
 - jekyll-feed
+- jekyll-remote-theme # add this 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +51,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+remote_theme: pages-themes/architect@v0.2.0
